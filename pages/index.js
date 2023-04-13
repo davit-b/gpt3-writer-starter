@@ -3,6 +3,9 @@ import Image from "next/image"
 import { useState } from "react"
 import buildspaceLogo from "../assets/buildspace-logo.png"
 
+const textAreaPlaceholder =
+  "Total 1200 calories, choose between pork shoulder and chicken thighs, and use an air fryer to cook. Also include spinach and oyster mushrooms..."
+
 const Home = () => {
   const [userInput, setUserInput] = useState("")
 
@@ -50,7 +53,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Total calories about 1200..."
+            placeholder={textAreaPlaceholder}
             value={userInput}
             onChange={handleUserChangedText}
           />
