@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "dprint.dprint",
+  "editor.formatOnSave": true,
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#ff0000"
+  },
+  "cSpell.words": [
+    "trpc"
+  ],
+  "editor.tokenColorCustomizations": {
+    "comments": "",
+    "textMateRules": []
+  },
+  "explorer.excludeGitIgnore": true,
+  "rainbowTags.hightlightType": "color",
+  "rainbowTags.allowEverywhere": true
+}
