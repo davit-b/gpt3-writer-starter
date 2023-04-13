@@ -21,10 +21,10 @@ const Home = () => {
       body: JSON.stringify({ userInput }),
     })
 
-    const { output } = await resp.json()
+    const { firstOutput, secondOutput } = await resp.json()
 
-    console.log("Calling replied...", output.text)
-    setApiOutput(`${output.text}`)
+    console.log("Calling replied...", firstOutput.text, secondOutput.text)
+    setApiOutput(`${firstOutput.text}`)
 
     setIsGenerating(false)
   }
@@ -68,7 +68,7 @@ const Home = () => {
             <div className="output">
               <div className="output-header-container">
                 <div className="output-header">
-                  <h3>Output</h3>
+                  <h3></h3>
                 </div>
               </div>
               <div className="output-content">
