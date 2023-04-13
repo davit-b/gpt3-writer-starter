@@ -13,7 +13,7 @@
     "comments": "",
     "textMateRules": []
   },
-  "explorer.excludeGitIgnore": true,
+  "explorer.excludeGitIgnore": false,
   "rainbowTags.hightlightType": "color",
   "rainbowTags.allowEverywhere": true
 }
